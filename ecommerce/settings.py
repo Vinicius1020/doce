@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-)8o(3td+akwkhohylfd86c+&ifglvvr!4tqw7h1cwsj!fs-@6+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['doce-sonho.up.railway', 'doce-production.up.railway.app']
+ALLOWED_HOSTS = ['doce-sonho.up.railway.app']
 
 
 # Application definition
@@ -138,7 +138,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SECURE_CROSS_ORIGIN_OPENER_POLICY='same-origin-allow-popups'
 
-CSRF_TRUSTED_ORIGINS = ['doce-sonho.up.railway.aplic', 'https://doce-sonho.up.railway.aplic', 'doce-production.up.railway.app', 'https://doce-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['doce-sonho.up.railway.app', 'https://doce-sonho.up.railway.app']
 
 
 #Mensagens
