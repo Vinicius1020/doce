@@ -34,7 +34,7 @@
 #cart_image{
     width: 50px;
     height: 50px;
-    border: 2px solid white;
+    border: 2px solid rgb(252, 179, 179);
     
 }
 #cart_image img{
@@ -61,7 +61,7 @@
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: rgb(255, 208, 0);
+    background-color: rgb(250, 209, 155);
     position: absolute;
     top: 0px;
     right: 0px;
