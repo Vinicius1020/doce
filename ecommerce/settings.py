@@ -138,7 +138,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SECURE_CROSS_ORIGIN_OPENER_POLICY='same-origin-allow-popups'
 
-CSRF_TRUSTED_ORIGINS = ['doce-sonho.up.railway.aplic', 'https://doce-sonho.up.railway.aplic']
+CSRF_TRUSTED_ORIGINS = ['doce-sonho.up.railway.aplic', 'https://doce-sonho.up.railway.aplic', 'doce-production.up.railway.app', 'https://doce-production.up.railway.app']
 
 
 #Mensagens
