@@ -86,9 +86,9 @@ class ShippindAddress(models.Model):
         return self.title """
 
 class Bolo_search(models.Model):
-    name_of_perfume = models.CharField(max_length=100)
+    name_of_bolo = models.CharField(max_length=100)
     def __str__(self):
-        return self.name_of_perfume
+        return self.name_of_bolo
 
 
 class Location(models.Model):

@@ -3,7 +3,7 @@ from . forms import Bolo_search_form
 
 def product_links(request):
     product = Product.objects.all()
-    return {'perfume': product}
+    return {'bolo': product}
 
 def bolo_search(request):
     search_form = Bolo_search_form
