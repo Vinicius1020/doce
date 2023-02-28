@@ -31,5 +31,5 @@ admin.site.register(Cart)
 admin.site.register(Cartitems)
 admin.site.register(ShippindAddress)
 """ admin.site.register(BannerProduct, BannerProductAdmin) """
-admin.site.register(Bolo_search)
+admin.site.register(Perfume_search)
 admin.site.register(Location)

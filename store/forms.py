@@ -1,10 +1,10 @@
 from django import forms
-from . models import Bolo_search
+from . models import Perfume_search
 
-class Bolo_search_form(forms.ModelForm):
-    name_of_bolo = forms.CharField(max_length=100, widget=forms.TextInput(attrs={
+class Perfume_search_form(forms.ModelForm):
+    name_of_perfume = forms.CharField(max_length=100, widget=forms.TextInput(attrs={
         'class': "form-control me-2", 'placeholder': 'Ex: bolo', 'style': 'border-radius: 30px'
     }))
     class Meta:
-        model = Bolo_search
-        fields = ['name_of_bolo',]
+        model = Perfume_search
+        fields = ['name_of_perfume',]
