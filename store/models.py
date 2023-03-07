@@ -9,6 +9,9 @@ class Customer(models.Model):
 
     def __str__(self):
         return self.name
+    class Meta:
+        verbose_name = "USUARIO"
+        verbose_name_plural = "USUARIO"
 
 
 
